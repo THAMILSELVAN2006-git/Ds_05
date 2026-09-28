@@ -1,0 +1,8 @@
+# Large raw transaction data (exceeds GitHub 100 MB file limit)
+transactions_data.csv
+
+# Python cache and checkpoints
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/

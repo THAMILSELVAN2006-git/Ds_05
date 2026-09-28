@@ -1,0 +1,51 @@
+{
+  "features": [
+    "current_age",
+    "gender",
+    "yearly_income_num",
+    "per_capita_income_num",
+    "total_debt_num",
+    "credit_score",
+    "num_credit_cards",
+    "retirement_age",
+    "Debt_to_Income",
+    "Proxy_Region_State",
+    "Avg_Amount",
+    "Txn_per_Month",
+    "Refund_Rate",
+    "Error_Rate"
+  ],
+  "numerical_features": [
+    "current_age",
+    "yearly_income_num",
+    "per_capita_income_num",
+    "total_debt_num",
+    "credit_score",
+    "num_credit_cards",
+    "retirement_age",
+    "Debt_to_Income",
+    "Avg_Amount",
+    "Txn_per_Month",
+    "Refund_Rate",
+    "Error_Rate"
+  ],
+  "categorical_features": [
+    "gender",
+    "Proxy_Region_State"
+  ],
+  "target": "Transaction_Preference",
+  "classes": [
+    "In-person-oriented",
+    "Digital-oriented"
+  ],
+  "threshold_definition": "Digital_Ratio >= 0.06375 (median split)",
+  "chosen_k": 21,
+  "metrics": {
+    "accuracy": 0.610655737704918,
+    "balanced_accuracy": 0.610655737704918,
+    "precision": 0.6261682242990654,
+    "recall": 0.5491803278688525,
+    "f1": 0.5851528384279476,
+    "baseline_accuracy": 0.5
+  }
+}

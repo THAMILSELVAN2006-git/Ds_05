@@ -1,0 +1,77 @@
+[
+  {
+    "desc": "Demonstration Profile 1 (Young High-Income Professional)",
+    "input": {
+      "current_age": 29,
+      "gender": "Female",
+      "yearly_income_num": 95000.0,
+      "per_capita_income_num": 48000.0,
+      "total_debt_num": 25000.0,
+      "credit_score": 740,
+      "num_credit_cards": 3,
+      "retirement_age": 65,
+      "Debt_to_Income": 0.2631578947368421,
+      "Proxy_Region_State": "CA",
+      "Avg_Amount": 62.5,
+      "Txn_per_Month": 115.0,
+      "Refund_Rate": 0.035,
+      "Error_Rate": 0.01
+    },
+    "output": {
+      "prediction": 1,
+      "preference_class": "Digital-oriented",
+      "probability_in_person": 0.47619047619047616,
+      "probability_digital": 0.5238095238095238
+    }
+  },
+  {
+    "desc": "Demonstration Profile 2 (Senior Retired Traditional Spender)",
+    "input": {
+      "current_age": 72,
+      "gender": "Male",
+      "yearly_income_num": 34000.0,
+      "per_capita_income_num": 18000.0,
+      "total_debt_num": 2000.0,
+      "credit_score": 780,
+      "num_credit_cards": 4,
+      "retirement_age": 65,
+      "Debt_to_Income": 0.058823529411764705,
+      "Proxy_Region_State": "FL",
+      "Avg_Amount": 38.2,
+      "Txn_per_Month": 70.0,
+      "Refund_Rate": 0.02,
+      "Error_Rate": 0.012
+    },
+    "output": {
+      "prediction": 0,
+      "preference_class": "In-person-oriented",
+      "probability_in_person": 0.6190476190476191,
+      "probability_digital": 0.38095238095238093
+    }
+  },
+  {
+    "desc": "Demonstration Profile 3 (Middle-Aged High-Frequency Household)",
+    "input": {
+      "current_age": 45,
+      "gender": "Female",
+      "yearly_income_num": 52000.0,
+      "per_capita_income_num": 26000.0,
+      "total_debt_num": 68000.0,
+      "credit_score": 660,
+      "num_credit_cards": 2,
+      "retirement_age": 67,
+      "Debt_to_Income": 1.3076923076923077,
+      "Proxy_Region_State": "TX",
+      "Avg_Amount": 44.1,
+      "Txn_per_Month": 98.0,
+      "Refund_Rate": 0.055,
+      "Error_Rate": 0.022
+    },
+    "output": {
+      "prediction": 1,
+      "preference_class": "Digital-oriented",
+      "probability_in_person": 0.2857142857142857,
+      "probability_digital": 0.7142857142857143
+    }
+  }
+]

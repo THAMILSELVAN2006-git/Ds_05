@@ -1,0 +1,168 @@
+{
+  "total_rows": 13305915,
+  "min_date": "2010-01-01 00:01:00",
+  "max_date": "2019-10-31 23:59:00",
+  "unique_clients_tx": 1219,
+  "unique_users": 2000,
+  "overlap": 1219,
+  "use_chip_counts": {
+    "Swipe Transaction": 6967185,
+    "Online Transaction": 1557912,
+    "Chip Transaction": 4780818
+  },
+  "top_30_mcc": [
+    {
+      "mcc": 5411,
+      "count": 1592584
+    },
+    {
+      "mcc": 5499,
+      "count": 1460875
+    },
+    {
+      "mcc": 5541,
+      "count": 1424711
+    },
+    {
+      "mcc": 5812,
+      "count": 999738
+    },
+    {
+      "mcc": 5912,
+      "count": 772913
+    },
+    {
+      "mcc": 4784,
+      "count": 674135
+    },
+    {
+      "mcc": 5300,
+      "count": 601942
+    },
+    {
+      "mcc": 4829,
+      "count": 589140
+    },
+    {
+      "mcc": 4121,
+      "count": 500662
+    },
+    {
+      "mcc": 5814,
+      "count": 499659
+    },
+    {
+      "mcc": 7538,
+      "count": 478263
+    },
+    {
+      "mcc": 5311,
+      "count": 475384
+    },
+    {
+      "mcc": 5813,
+      "count": 248570
+    },
+    {
+      "mcc": 5310,
+      "count": 246545
+    },
+    {
+      "mcc": 4900,
+      "count": 242993
+    },
+    {
+      "mcc": 5942,
+      "count": 232387
+    },
+    {
+      "mcc": 4814,
+      "count": 218243
+    },
+    {
+      "mcc": 5211,
+      "count": 173261
+    },
+    {
+      "mcc": 7832,
+      "count": 145046
+    },
+    {
+      "mcc": 5921,
+      "count": 128875
+    },
+    {
+      "mcc": 7230,
+      "count": 106616
+    },
+    {
+      "mcc": 4214,
+      "count": 99759
+    },
+    {
+      "mcc": 9402,
+      "count": 99382
+    },
+    {
+      "mcc": 5719,
+      "count": 86111
+    },
+    {
+      "mcc": 4111,
+      "count": 84105
+    },
+    {
+      "mcc": 5651,
+      "count": 72550
+    },
+    {
+      "mcc": 5970,
+      "count": 67806
+    },
+    {
+      "mcc": 5815,
+      "count": 62502
+    },
+    {
+      "mcc": 4899,
+      "count": 51526
+    },
+    {
+      "mcc": 6300,
+      "count": 51242
+    }
+  ],
+  "errors_counts": {
+    "nan": 13094522,
+    "Insufficient Balance": 130902,
+    "Bad PIN": 32119,
+    "Technical Glitch": 26271,
+    "Bad Card Number": 7767,
+    "Bad CVV": 6106,
+    "Bad Expiration": 6161,
+    "Bad Zipcode": 1126,
+    "Insufficient Balance,Technical Glitch": 243,
+    "Bad PIN,Insufficient Balance": 293,
+    "Bad Card Number,Insufficient Balance": 71,
+    "Bad PIN,Technical Glitch": 70,
+    "Bad Expiration,Technical Glitch": 21,
+    "Bad Card Number,Bad Expiration": 33,
+    "Bad Card Number,Bad CVV": 38,
+    "Bad Expiration,Insufficient Balance": 47,
+    "Bad CVV,Technical Glitch": 8,
+    "Bad Expiration,Bad CVV": 32,
+    "Bad CVV,Insufficient Balance": 57,
+    "Bad Card Number,Technical Glitch": 15,
+    "Bad Zipcode,Insufficient Balance": 7,
+    "Bad Card Number,Bad Expiration,Insufficient Balance": 1,
+    "Bad Zipcode,Technical Glitch": 5
+  },
+  "amount_stats": {
+    "pos": 12635227,
+    "zero": 10639,
+    "neg": 660049,
+    "total": 0,
+    "sum_pos": 639354564.62,
+    "sum_neg": -67519042.34
+  }
+}
